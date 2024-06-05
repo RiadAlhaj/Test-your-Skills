@@ -1,3 +1,9 @@
+.header-parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
 body {
   max-width: 112.5rem;
   width: 100%;
