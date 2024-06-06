@@ -5,7 +5,6 @@
 @import"./_responsive.scss";
 
 
-
 body{
   max-width:112.5rem;
   width:100%;
@@ -13,7 +12,10 @@ body{
   height: 100vh;
   font-family: "Josefin Sans", sans-serif;
   margin: auto;
+}
+*{
   padding: 0px;
+  margin: 0px;
 }
 
 

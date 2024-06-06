@@ -1,9 +1,10 @@
-header{
+.img-header-div{
   max-width: 110.813rem;
+  min-height: 51.25rem;
   width: 100%;
-  min-height: 51.313rem;
-  height: 100vh;
+  height: 100%;
   background-image: url(/imges/one.png);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,8 +13,8 @@ header{
 .header-parent{
   max-width: 73.313rem;
   width: 100%;
-  min-height: 46.126rem;
-  height: 100vh;
+  min-height: 46.063rem;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(15,1fr);
