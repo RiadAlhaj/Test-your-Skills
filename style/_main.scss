@@ -5,7 +5,7 @@ main{
   height: 100%;
 }
 .main-img-div{
-  max-width: 110.813rem;
+ /* max-width: 110.813rem;*/
   width: 100%;
   height: 22%;
   background-image: url(/imges/four.png);
@@ -95,15 +95,14 @@ main{
     max-width: 73.313rem;
     height: 100%;
     .text-box-ch-group-one{
-      grid-column: 2/10;
+      grid-column: 1/10;
       grid-row: 5/11;
       display: grid;
       grid-template-columns: repeat(10,1fr);
-      grid-template-rows: repeat(6,1fr);
+      grid-template-rows: repeat(9,1fr);
+      gap: 5px;
       background-color: #232323;
       .spain{
-        grid-column: 2/3;
-        grid-row: 1/3;
         font-family: "Josefin Sans", sans-serif;
         font-size: 20px;
         font-weight: 400;
@@ -111,34 +110,43 @@ main{
         letter-spacing: 1.5px;
         color: #FFFFFF;
         height: 26px;
+        grid-column: 2/-1;
+        grid-row: 2/-1;
       }
       .h4{
-        grid-column: 2/6;
-        grid-row: 3/4;
         font-family: "Josefin Sans", sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 26px;
         color: #FFFFFF;
         height: 26px;
+        grid-column: 2/-1;
+        grid-row: 3/-1;
       }
       .text-ch-group-one{
-        grid-column: 2/-1;
+        grid-column: 2/10;
         grid-row: 4/-1;
+        max-width:31.75rem;
+        height: 72px;
         font-family: "Josefin Sans", sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
         color: #FFFFFF;
-        height: 78px;
       }
       .button-group-one{
-        grid-column: 2/3;
-        grid-row: 7/8;
         width: 14.25rem;
+        height: 63px;
         background-color: #496BFE;
         color: #FFFFFF;
-        height: 63px;
+        border: none;
+        font-family: "Aleo", serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 1.2px;
+        grid-column: 2/-1;
+        grid-row: 7/-1;
       }
     }
   }
