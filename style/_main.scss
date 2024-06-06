@@ -79,4 +79,68 @@ main{
   height: 11%;
   background-color: #333333;
 }
+.group-one-div{
+  width: 100%;
+  height: 22%;
+  background-image: url(/imges/five.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .group-one-ch{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(11,1fr);
+    max-width: 73.313rem;
+    height: 100%;
+    .text-box-ch-group-one{
+      grid-column: 2/10;
+      grid-row: 5/11;
+      display: grid;
+      grid-template-columns: repeat(10,1fr);
+      grid-template-rows: repeat(6,1fr);
+      background-color: #232323;
+      .spain{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        height: 26px;
+      }
+      .h4{
+        grid-column: 2/6;
+        grid-row: 3/4;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        height: 26px;
+      }
+      .text-ch-group-one{
+        grid-column: 2/-1;
+        grid-row: 4/-1;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFFFFF;
+        height: 78px;
+      }
+      .button-group-one{
+        grid-column: 2/3;
+        grid-row: 7/8;
+        width: 14.25rem;
+        background-color: #496BFE;
+        color: #FFFFFF;
+        height: 63px;
+      }
+    }
+  }
+}
 
