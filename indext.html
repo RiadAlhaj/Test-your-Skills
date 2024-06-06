@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/5818ad28f4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style/normalize.css">
   <link rel="stylesheet" href="/style/index.css">
@@ -14,28 +14,27 @@
 <body>
   <header>
     <div class="header-parent">
-      <img class="header-first-img" src="/imges/one.png" alt="">
-      <nav>
-        <h2>Bhromaon</h2>
-        <ul>
-          <li><a>Who We Are</a></li>
-          <li><a>What We Do</a></li>
-          <li><a>Travel With Us</a></li>
-          <li><a>Contact Us</a></li>
+        <h1 class="h1-header">BHROMAON</h1>
+        <p class="text-header">Safe Travel Anywhere</p>
+        <form class="form-header">
+          <input type="text"  id="search" placeholder="Search Your Travel Destination" class="search-input">
+          <button type="submit" class="search-button">Search<i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="scroll-div">
+          <p class="scroll-text">Scroll Down</p>
+          <a class="scroll-icon"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </div>
+    <div class="div-for-nav">
+      <nav class="nav-header">
+        <h2 class="logo-header"><a class="logo-a" href="/indext.html">Bhromaon</a></h2>
+        <ul class="ul-header">
+          <li><a class="we-are" href="#">Who We Are</a></li>
+          <li><a class="we-do" href="#">What We Do</a></li>
+          <li><a class="with-us" href="#">Travel With Us</a></li>
+          <li><a class="contact-us" href="#">Contact Us</a></li>
         </ul>
       </nav>
-      <h1>Bhromaon</h1>
-      <p>Safe Travel Anywhere</p>
-      <form>
-        <input type="text">
-        <button type="submit"></button>
-      </form>
-      <div>
-        <p>Scroll Down</p>
-        <svg class="svg-scroll">
-          <use herf="/imges/svg/.svg#scroll"></use>
-        </svg>
-      </div>
     </div>
   </header>
   <main>
